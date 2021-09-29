@@ -1,14 +1,9 @@
-@import "_reset.scss";
-@import "_varuable.scss";
-
-.box {
-	width: 50px;
-  height: 50px;
-  background-clip: text;
-  display: flex;
-  flex-direction: column;
-  border-radius: 5px;
-  background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
-  color: $red;
-  font-size: 20px;
-}
+@import "reset";
+@import "varuable";
+@import "mixin";
+@import "flexBox";
+@import "dataAttribute";
+@import "mediaQuery";
+@import "base";
+@import "layout";
+@import "page";
