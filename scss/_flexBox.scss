@@ -5,11 +5,6 @@
     justify-content: $justifyContent;
 }
 
-@mixin boxSizing {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
 
 // 已知有幾個 div 為一排
 @for $i from 0 through 24 {
@@ -29,7 +24,7 @@
 }
 
 .row {
-    @include boxSizing;
+    @include box-sizing;
     position: relative;
     width: 100%;
     margin: 0;

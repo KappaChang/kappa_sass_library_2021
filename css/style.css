@@ -71,6 +71,19 @@ table {
   clear: both;
 }
 
+/*
+
+&:before {
+		// 右上箭頭
+    @include arrow(30px,green,right-top);
+    content: "";
+		position: absolute;
+		display: block;
+		left: 10%;
+		top: 100%;
+	}
+
+*/
 .flex_0 {
   -webkit-box-flex: 0;
       -ms-flex: 0;
@@ -1263,7 +1276,7 @@ a {
   color: #1e5799;
 }
 
-.container {
+.container-fluid {
   width: 100%;
 }
 
@@ -1271,7 +1284,7 @@ a {
   width: 100%;
 }
 
-.main {
+.container {
   width: 100%;
   max-width: 1200px;
 }
@@ -1294,7 +1307,7 @@ a {
   border-radius: 5px;
   background: -webkit-gradient(linear, left top, left bottom, from(#1e5799), color-stop(50%, #2989d8), color-stop(51%, #207cca), to(#7db9e8));
   background: linear-gradient(to bottom, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
-  color: #ff0000;
+  color: red;
   font-size: 20px;
 }
 
